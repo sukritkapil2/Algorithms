@@ -72,4 +72,6 @@ int main(){
 Worst Case - O(n^2) - Happens when the greatest or the least element is picked as the pivot
 Best Case - O(n*log n) - It occurs when the pivot element is always the middle element or near to the middle element.
 Average - O(n*log n)
+
+Space Complexity - O(log n)
 */

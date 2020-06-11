@@ -1,5 +1,5 @@
 /*
-Implementation of Quick Sort in C++
+Implementation of Bubble Sort in C++
 Author - Sukrit Kapil
 Date - 11 June 2020
 */
@@ -61,7 +61,9 @@ int main(){
 }
 
 /*
-Worst Case - O(n^2) - Happens when the greatest or the least element is picked as the pivot
-Best Case - O(n*log n) - It occurs when the pivot element is always the middle element or near to the middle element.
-Average - O(n*log n)
+Worst Case - O(n^2) - If we want to sort in ascending order and the array is in descending order then, the worst case occurs.
+Best Case - O(n) - If the array is already sorted, then there is no need for sorting.
+Average - O(n2) - It occurs when the elements of the array are in jumbled order (neither ascending nor descending).
+
+Space Complexity - O(2) for the optimized version
 */
