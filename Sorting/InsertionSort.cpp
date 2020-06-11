@@ -42,7 +42,7 @@ int main(){
     }
     cout << endl;
 
-    cout << "Array after Quick Sort : \n";
+    cout << "Array after Insertion Sort : \n";
 
     insertion_sort(arr, 0, sizeof(arr)/sizeof(int) - 1);
 
